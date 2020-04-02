@@ -1,10 +1,8 @@
 #!/usr/bin/env python
-from flask import Flask
+
 from json import dumps
 import shlex, subprocess
-app = Flask(__name__)
 
-@app.route('/')
 def grep (target, s):
     print(targret.split("\n"))
     for line in target.split("\n"):
